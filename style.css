@@ -9,7 +9,7 @@ body{
     text-align: center;
 }
 .banner{
-background-image: url(oip.jpg);
+background-image: url("OIP.jpg");
 margin-top: 30px;  
 }
 .logotip{
