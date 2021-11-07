@@ -8,6 +8,9 @@ body{
     font-family: 'Nunito', sans-serif;
     text-align: center;
 }
+html{
+    scroll-behavior: smooth;
+}
 .banner{
 background-image: url("OIP.jpg");
 margin-top: 30px;  
@@ -213,4 +216,43 @@ button{
     padding-left: 20px;
     padding-right: 20px;
     line-height: 40px;
+}
+@media (max-width: 600px) {
+h1{
+    width: 100%;
+}
+.banner p{
+    width: 100%;
+}
+.zagolovok{
+    font-size: 50px;
+}
+.kompania{
+    width: 100%;
+}
+.magazin{
+    width: 100%;
+}
+.magazinP{
+    font-size: 30px;
+}
+.shop{
+    width: 80%;
+}
+.chelovek{
+    width: 80%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    
+}
+.feedback {
+    color: rgb(255, 255, 255);
+
+}
+input{
+    width: 80%;
+}
+textarea{
+    width: 80%;
+}
 }
